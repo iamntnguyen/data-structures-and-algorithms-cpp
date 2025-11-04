@@ -1,0 +1,3 @@
+D:/workspace/coding/cpp/clangd_configuation/build/CMakeFiles/my_app.dir
+D:/workspace/coding/cpp/clangd_configuation/build/CMakeFiles/edit_cache.dir
+D:/workspace/coding/cpp/clangd_configuation/build/CMakeFiles/rebuild_cache.dir

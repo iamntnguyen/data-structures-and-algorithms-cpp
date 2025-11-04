@@ -1,0 +1,6 @@
+# Based on Google C++ Style Guide
+
+BasedOnStyle: Google
+ColumnLimit: 100
+UseTab: Never
+Language: Cpp

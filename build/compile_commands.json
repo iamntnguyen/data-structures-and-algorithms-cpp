@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/workspace/coding/cpp/clangd_configuation/build",
+  "command": "C:\\Users\\Quan\\scoop\\apps\\msys2\\2025-06-22\\mingw64\\bin\\g++.exe -std=gnu++20 -o CMakeFiles\\my_app.dir\\src\\main.cpp.obj -c D:\\workspace\\coding\\cpp\\clangd_configuation\\src\\main.cpp",
+  "file": "D:/workspace/coding/cpp/clangd_configuation/src/main.cpp",
+  "output": "D:/workspace/coding/cpp/clangd_configuation/build/CMakeFiles/my_app.dir/src/main.cpp.obj"
+}
+]
