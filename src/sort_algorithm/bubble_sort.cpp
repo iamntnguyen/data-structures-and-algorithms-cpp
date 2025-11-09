@@ -25,22 +25,15 @@ void swap(int& a, int& b) {
   b = temp;
 }
 
-void quick_sort(std::vector<int>& vec, int left, int right) {
-  int i = left, j = right;
-  int mid = vec[(left + right) / 2];
-
-  while (i <= j) {
-    while (vec[i] < mid) i++;
-    while (vec[j] > mid) j--;
-    if (i <= j) {
-      std::swap(vec[i], vec[j]);
-      i++;
-      j--;
+void bubble_sort(std::vector<int>& vec) {
+  int n = vec.size();
+  for (int i = 0; i < n - 1; i++) {
+    for (int j = 0; j < n - i - 1; j++) {
+      if (vec[j] > vec[j + 1]) {
+        swap(vec[j], vec[j + 1]);
+      }
     }
   }
-
-  if (left < j) quick_sort(vec, left, j);
-  if (i < right) quick_sort(vec, i, right);
 }
 
 int main() {
@@ -51,7 +44,7 @@ int main() {
   std::cout << "before sort: ";
   print_vector(data);
 
-  quick_sort(data, 0, data.size() - 1);
+  bubble_sort(data);
 
   std::cout << "after sort: ";
   print_vector(data);
