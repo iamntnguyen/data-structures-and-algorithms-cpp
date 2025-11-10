@@ -54,6 +54,7 @@ void merge_sort(std::vector<int>& vec, int left, int right) {
   }
 }
 int main() {
+  // iamntnguyen
   srand(time(0));
   int n = 10;
   std::vector<int> data = generate_random_vector(n);
